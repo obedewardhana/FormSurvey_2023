@@ -1,0 +1,281 @@
+/*!
+* FORM SURVEY
+* Obeth Dewa Wardhana 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html ,body{
+	background: #ffffff;
+}
+body{
+	overflow-x: hidden;
+}
+
+body {
+	color: #000000;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+figure{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+p {
+	font-weight:500;
+	font-family:'Poppins',sans-serif;
+}
+
+/* --- LINKS --- */
+a{
+	color: #01449f;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+a:link {
+	color: #01449f; 
+	text-decoration: none;
+}
+a:visited {
+	color: #01449f; 
+	text-decoration: none;
+}
+a:hover {
+	color: #6E87C0;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+a:hover, 
+a:active {
+	outline:none;
+}
+a:focus{
+	outline: none;
+}
+:focus {
+	outline: none;
+}
+
+
+/* --- COLORS --- */
+
+.clr-blue{
+	color: #292560;
+}
+.clr-red{
+	color: #F95F5F;
+}
+.btn.clr-blue:hover{
+	color: #292560;
+}
+.btn.clr-red:hover{
+	color: #e55259;
+}
+
+/*Color background*/
+.bg-clr-blue{
+	background-color: #292560;
+}
+.bg-clr-red{
+	background-color: #F95F5F;
+}
+.bg-clr-grey-light {
+	background-color: #e7e7e7;
+}
+.btn.bg-clr-grey-light {
+	color: #999999;
+}
+.btn.bg-clr-blue:hover{
+	background-color: #292560;
+}
+.btn.bg-clr-red:hover{
+	background-color: #e55259;
+}
+.btn.bg-clr-grey-light:hover {
+	background-color: #d5d5d5;
+}
+.bg-clr-white{
+	background-color: #ffffff;
+}
+
+/* --- TITLE --- */
+
+.section-title {
+	display: block;
+	position: relative;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 3rem 0 3rem;
+}
+.title-page-box{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+/*Title Primary*/
+.title-primary {
+	position: relative;
+	padding: 60px 0;
+}
+.title-primary h1 {
+	font-size: 40px;
+	color: #000000;
+	font-weight: 600;
+	letter-spacing:1.5px;
+	text-transform: uppercase;
+}
+.title-primary h2 {
+	font-size: 32px;
+	color: #000000;
+	font-weight: 600;
+	letter-spacing:1.5px;
+	text-transform: uppercase;
+}
+.title-primary h3 {
+	font-size: 24px;
+	color: #000000;
+	font-weight: 600;
+	letter-spacing:1.5px;
+	text-transform: uppercase;
+}
+.title-primary h4 {
+	font-size: 20px;
+	color: #000000;
+	font-weight: 600;
+	letter-spacing:1.5px;
+	text-transform: uppercase;
+}
+
+/*Title Secondary*/
+.title-secondary h3 {
+	font-size: 24px;
+	color: #000000;
+	font-weight: 600;
+	letter-spacing:1.5px;
+	text-transform: uppercase;
+}
+.title-secondary h4 {
+	font-size: 18px;
+	color: #000000;
+	font-weight: 600;
+	letter-spacing:1.5px;
+	text-transform: uppercase;
+}
+
+/*Title Dashboard*/
+.title-dashboard{
+	display: block;
+	position: relative;
+}
+.title-dashboard h3 {
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing:1.5px;
+	text-transform: uppercase;
+}
+
+
+/* --- LISTS --- */
+
+ul ,ol {
+	padding-left: 15px;
+	color: #333333;
+}
+.list-mceasy-unstyled {
+	padding: 0; 
+	margin-top: 0;
+	margin-bottom: 1rem;
+	list-style: none;
+}
+.list-mceasy-inline {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding-left: 0;
+}
+.list-mceasy-inline li:not(:last-child) {
+	margin-right: 0.5rem;
+}
+.list-style-circle {
+	list-style-type: circle;
+}
+.list-style-square {
+	list-style-type: square;
+}
+.list-style-disc {
+	list-style-type: disc;
+}
+
+/*list with icon*/
+.list-style-icon {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.list-style-icon li {
+	position: relative;
+	padding-left: 32px;
+}
+.list-style-icon li:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	margin-top: 1px;
+	content: "\f144";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	color: #b8784e;
+	min-width: 25px;
+}
+
+/* List table text / form text / data form text */
+.form-text-group-box {
+	position: relative;
+	display: block;
+}
+.form-text-group-box ul {
+	padding: 0;
+	margin-top: 0;
+	list-style: none;
+}
+.form-text-group{
+	margin-bottom: 0;
+}
+.form-text-group .form-text-label{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding-top: calc(.375rem + 1px);
+	padding-bottom: calc(.375rem + 1px);
+	line-height: 1.5;
+}
+.form-text-group .form-text-label label{
+	display: inline-block;
+	margin: 0;
+	line-height: 1.5;
+}
+.form-text-group .form-text-label span{
+	display: inline-block;
+	margin: 0;
+	line-height: 1.5;
+}
+.form-text-group .form-text-desc{
+	padding-top: calc(.375rem + 1px);
+	padding-bottom: calc(.375rem + 1px);
+	line-height: 1.5;
+}
+.form-text-group .form-text-desc p{
+	display: inline-block;
+	margin: 0;
+	line-height: 1.5;
+}

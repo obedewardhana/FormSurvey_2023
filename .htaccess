@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c> 
+
+
+RewriteEngine On
+RewriteBase /form-survey/
+RewriteRule ^([^/.]*)/?$ index.php?pages=$1 [L]
+
+</IfModule>
